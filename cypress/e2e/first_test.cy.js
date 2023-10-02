@@ -14,10 +14,4 @@ describe("Open tabs", () => {
     cy.contains("span.menu-title", "Forms").click();
     cy.contains("span.menu-title", "Form Layouts").click();
   });
-
-  it.only("Login", () => {
-    cy.visit("/");
-    cy.contains("Auth").click();
-    cy.contains("Register").click();
-  });
 });
