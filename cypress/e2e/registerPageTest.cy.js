@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
-import { registerPage } from "../pages/registerPage";
-import { navigationMenu } from "../pages/components/navigationMenuComponent";
+import { RegisterPage } from "../pages/registerPage";
+import { NavigationMenu } from "../pages/components/navigationMenuComponent";
 
 describe("Register page validation", () => {
-  const navigateThroughMenu = new navigationMenu();
-  const register = new registerPage();
+  const navigateThroughMenu = new NavigationMenu();
+  const register = new RegisterPage();
   const authMenuItem = "Auth";
   const registerMenuItem = "Register";
 

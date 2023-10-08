@@ -1,4 +1,4 @@
-export class navigationMenu {
+export class NavigationMenu {
   elements = {
     menuItem: (menuTitleName) => cy.get(`[title='${menuTitleName}']`),
   };

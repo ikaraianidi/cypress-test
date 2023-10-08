@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
-import { loginPage } from "../pages/loginPage";
-import { navigationMenu } from "../pages/components/navigationMenuComponent";
+import { LoginPage } from "../pages/loginPage";
+import { NavigationMenu } from "../pages/components/navigationMenuComponent";
 
 describe("Login page validation", () => {
-  const navigateThroughMenu = new navigationMenu();
-  const login = new loginPage();
+  const navigateThroughMenu = new NavigationMenu();
+  const login = new LoginPage();
   const authMenuItem = "Auth";
   const loginMenuItem = "Login";
 

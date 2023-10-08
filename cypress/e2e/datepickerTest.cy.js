@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
-import { datepickerPage } from "../pages/datePickerPage";
-import { navigationMenu } from "../pages/components/navigationMenuComponent";
+import { DatepickerPage } from "../pages/datePickerPage";
+import { NavigationMenu } from "../pages/components/navigationMenuComponent";
 import moment from "moment";
 
 describe("Datepicker test suite", () => {
-  const navigateThroughMenu = new navigationMenu();
-  const datepicker = new datepickerPage();
+  const navigateThroughMenu = new NavigationMenu();
+  const datepicker = new DatepickerPage();
   const formsMenuItem = "Forms";
   const datepickerMenuItem = "Datepicker";
 

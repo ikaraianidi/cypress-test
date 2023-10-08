@@ -1,4 +1,4 @@
-export class registerPage {
+export class RegisterPage {
   elements = {
     fullNameInput: () => cy.get("#input-name"),
     emailInput: () => cy.get("#input-email"),

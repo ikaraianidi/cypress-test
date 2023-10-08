@@ -1,4 +1,4 @@
-export class datepickerPage {
+export class DatepickerPage {
   elements = {
     commonDatepickerInput: () =>
       cy
