@@ -39,3 +39,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Ignore reports 
+/cypress/downloads
+/cypress/results
+/mochawesome-report
+mochawesome.json
